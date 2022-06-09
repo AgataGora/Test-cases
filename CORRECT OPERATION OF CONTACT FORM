@@ -1,0 +1,22 @@
+ID:1
+TITLE: Correct operation of the contact form 
+ENVIRONMENT: http://przekopmierzei.pl/podstrona_kontakt.html
+PRE-CONDITIONS: providing real user data
+STEPS TO BE EXECUTED: Fill in the form fields (sender name, e-mail, message content)
+EXPECTED RESULT: The message is sended
+FINAL RESULT:The message is send
+PRIORITY: HIGH
+STATUS: PASS
+AUTHOR: AGATA GORA 
+
+ID:2
+TITLE:Correct operation of the contact form
+ENVIRONMENT: http://przekopmierzei.pl/podstrona_kontakt.html
+PRE-CONDITIONS: providing real user data excluding e-mail
+STEPS TO BE EXECUTED: Fill in the form fields (sender name, message content), e-mail field is empty
+EXPECTED RESULTS: The message is not send and the contact form display a statement that the e-mail adress should be filled
+FINAL RESULT: The message is not send and in e-mail field a statmend to fill in the e-mail field is displayed
+PRIORITY: MEDIUM
+STATUS: PASS
+AUTHOR: AGATA GORA
+
